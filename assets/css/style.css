@@ -55,9 +55,10 @@
 	margin: 15px;
 }
 
-#personal {
-	border-style: groove;
-	border-width: 2px;
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
 }
 
 /* DOCUMENT SET UP */
