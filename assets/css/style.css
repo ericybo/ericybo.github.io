@@ -55,6 +55,11 @@
 	margin: 15px;
 }
 
+#personal {
+	border-style: groove;
+	border-width: 2px;
+}
+
 /* DOCUMENT SET UP */
 
 /*body, html {
