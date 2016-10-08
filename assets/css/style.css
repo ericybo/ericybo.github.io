@@ -25,8 +25,19 @@
 .info {
     font-family: Lato;
     margin-top: 10%;
+    margin-bottom: 8px;
     text-align: center;
     font-size: 20px;
+}
+
+.info-text {
+    margin: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.5;
+    font-family: Lato;
+    text-align: center;
+    font-size: 16px;
 }
 
 .footer-text {
@@ -70,6 +81,7 @@
     left: 0;
     background-color: #f0f0f0; /*light gray*/
     font-size: 30px;
+    overflow-y: scroll;
     transition: 0.7s;
     -moz-transition: 0.7s;
     -webkit-transition: 0.7s;
@@ -111,6 +123,7 @@
     background-color: #111111; /*dark gray*/
     color: white;
     font-size: 30px;
+    overflow-y: scroll;
     transition: 0.7s;
     -moz-transition: 0.7s;
     -webkit-transition: 0.7s;
